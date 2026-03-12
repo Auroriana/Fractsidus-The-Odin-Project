@@ -1,2 +1,5 @@
 # Fractsidus---Odin-Project
-This is for The Odin Project "Landing Page" !
+
+The Odin Project "Landing Page" !
+
+# This was made in accoradance to The Odin Project specifically for the project titled "Landing Page"
