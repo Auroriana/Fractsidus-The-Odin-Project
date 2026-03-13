@@ -35,12 +35,13 @@
 
 .landing-page {
     display: flex;
-    justify-content: space-around;
+    justify-content: ;
     align-items: center;
     gap: 70px;
     padding: 100px;
     background-color: #4b2020;
     height: 80vh;
+    flex-wrap: wrap;
 }
 
 .landing-text {
@@ -48,6 +49,9 @@
     flex-direction: column;
     gap: 10px;
     max-width: 1200px;
+    flex-shrink: 1;  
+    min-width: 300px;
+    flex: 1 1 300px;
 }
 
 .title-landing {
@@ -79,10 +83,11 @@
 
 .img-landing {
     width: 100%;
-    max-width: 1500px;
-    min-width: 500px;
+    max-width: 100%;
 }
 
 .landing-image {
-
+    flex: 1 1 500px;
+    max-width: 1500px;
+    min-width: 500px;
 }
