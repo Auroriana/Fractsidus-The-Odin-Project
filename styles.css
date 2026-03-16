@@ -15,7 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
     padding: 20px 100px 20px 100px;
     background-color: #38040E;
 }
@@ -150,4 +150,32 @@
 .codename {
     font-style: italic;
     font-weight: bold;
+}
+
+/* Quote Page */
+
+.quote-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #220202;
+    padding: 100px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    min-width: 300px;
+    gap: 20px;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.saidby {
+    display: flex;
+    flex-direction: row-reverse;
 }
