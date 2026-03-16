@@ -46,7 +46,7 @@
     gap: 70px;
     padding: 50px;
     background-color: #38040E;
-    min-height: 80vh;
+    min-height: 87vh;
     flex-wrap: wrap;
 }
 
@@ -192,7 +192,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 95vh;
+    min-height: 89vh;
     background-color: #1d0000;
     padding: 50px;
 }
